@@ -29,12 +29,12 @@ public class MainActivityMedia extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-//                String Nota1 = editTextNota1.getText().toString();
-//                String Nota2 = editTextNota2.getText().toString();
-//                double nota1 = Double.parseDouble(Nota1);
-//                double nota2 = Double.parseDouble(Nota2);
-//                double media = (nota1 + nota2) / 2;
-//                Toast.makeText(MainActivityMedia.this, "Sua média é: " + media, Toast.LENGTH_SHORT).show();
+                String Nota1 = editTextNota1.getText().toString();
+                String Nota2 = editTextNota2.getText().toString();
+                double nota1 = Double.parseDouble(Nota1);
+                double nota2 = Double.parseDouble(Nota2);
+                double media = (nota1 + nota2) / 2;
+                Toast.makeText(MainActivityMedia.this, "Sua média é: " + media, Toast.LENGTH_SHORT).show();
 
             }
         });
